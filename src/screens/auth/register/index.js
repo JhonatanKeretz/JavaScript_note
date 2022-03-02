@@ -7,37 +7,37 @@ import RegisterForm from "../../../components/auth/register_form";
 
 
 const Register = () => (
-<Fragment>
-    <Header />
-    <Section size="medium" className="auth">
-        <Container>
-            <Column.Group centered>
-                <Column size={3}>
-                    <Card>
-                        <Card.Content>
-                            <Section>
-                                <Column.Group centered>
-                                    <Column size={12}>
-                                        <img src={logoImage} />
-                                    </Column>
-                                </Column.Group>
+    <Fragment>
+        <Header />
+        <Section size="medium" className="auth">
+            <Container>
+                <Column.Group centered>
+                    <Column size={3}>
+                        <Card>
+                            <Card.Content>
+                                <Section>
+                                    <Column.Group centered>
+                                        <Column size={12}>
+                                            <img src={logoImage} />
+                                        </Column>
+                                    </Column.Group>
 
-                                <Column.Group>
-                                    <Column size={12}>
-                                        <Title size={6} className="has-text-grey has-text-centered">
-                                            Your notes on the cloud
-                                        </Title>
-                                    </Column>
-                                </Column.Group>
-                                <RegisterForm />
-                            </Section>
-                        </Card.Content>
-                    </Card>
-                </Column>
-            </Column.Group>
-        </Container>
-    </Section>
-</Fragment>
+                                    <Column.Group>
+                                        <Column size={12}>
+                                            <Title size={6} className="has-text-grey has-text-centered">
+                                                Your notes on the cloud
+                                            </Title>
+                                        </Column>
+                                    </Column.Group>
+                                    <RegisterForm />
+                                </Section>
+                            </Card.Content>
+                        </Card>
+                    </Column>
+                </Column.Group>
+            </Container>
+        </Section>
+    </Fragment>
 );
 
 export default Register;
