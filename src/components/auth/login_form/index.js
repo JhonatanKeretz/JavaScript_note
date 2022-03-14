@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable eqeqeq */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Fragment, useState } from 'react';
 import { Button, Field, Control, Input, Column,  Help, Label } from "rbx";
 import { Navigate } from "react-router-dom";
